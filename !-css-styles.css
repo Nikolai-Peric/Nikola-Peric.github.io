@@ -1,0 +1,22 @@
+@charset "utf-8";
+.openscreen {
+	background-color: #FFFFFF;
+	background-image: url(../_images/logo-burst-standard-1080.png);
+	height: 1080px;
+	width: 1920px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	clear: none;
+	float: none;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+}
+#down {
+	width: 1920px;
+	height: 1080px;
+	animation: moveDown 0.6s ease-in-out 0.2s backwards;
+	transform: translateY(1080);
+}
