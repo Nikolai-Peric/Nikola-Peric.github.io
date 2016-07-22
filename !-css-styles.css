@@ -1,9 +1,12 @@
 @charset "utf-8";
+@import url("big_noodle_titling_oblique/stylesheet.css");
+@import url("BigNoodleTitlingOblique/stylesheet.css");
+
+
 .openscreen {
 	background-color: #FFFFFF;
 	background-image: url(../_images/logo-burst-standard-1080.png);
 	height: 1080px;
-	width: 1920px;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	clear: none;
@@ -13,10 +16,209 @@
 	-ms-transition: all;
 	-o-transition: all;
 	transition: all;
+	width: 1920px;
+	
 }
+#body1 {
+	font-family: BigNoodleTitling;
+
+
+	font-colour: blue 
+	padding-top: 510px;
+	padding-right: 500px;
+	padding-bottom: 500px;
+	padding-left: 760px;
+	font-size: 110px;
+	font-style: oblique;
+	line-height: normal;
+	padding-top: 400px;
+}
+
 #down {
 	width: 1920px;
 	height: 1080px;
 	animation: moveDown 0.6s ease-in-out 0.2s backwards;
 	transform: translateY(1080);
+}
+
+@font-face {
+	font-family: 'big noodle titling oblique';
+	src: url('big_noodle_titling_oblique.ttf') format('truetype');
+}
+.bodybackground {
+	background-image: url(../_images/background_dots.png);
+	background-repeat: repeat;
+}
+.textbody1 {
+	background-image: none;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 400px;
+	float: none;
+	font-family: bigNoodleTitling;
+	color: #FFF;
+	font-style: oblique;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	clear: right;
+	font-size: 38px;
+	text-align: center;
+	transition: height 2s;
+	z-index: 10;
+	
+}
+text:hover {
+	height: 100px;;
+}
+
+
+.imagebody1 {
+	background-image: none;
+	height: 380px;
+	width: 675px;
+	background-repeat: no-repeat;
+	-ms-transition: all;
+	-o-transition: all;
+	padding-right: 700px;
+}
+#text2 {
+	font-size: 22px;
+	font-family: bigNoodleTitling;
+	text-align: center;
+	postion: absolute;
+	top: 500;
+	
+}
+
+#apDiv1 {
+	position: absolute;
+	left: 784px;
+	top: 58px;
+	width: 678px;
+	height: 384px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 714px;
+	top: 680px;
+	width: 627px;
+	height: 490px;
+	z-index: 2;
+}
+#apDiv3 {
+	position: absolute;
+	left: 789px;
+	top: 708px;
+	width: 626px;
+	height: 380px;
+	z-index: 3;
+	font-size: 27px;
+	font-family: bigNoodleTitling;
+	font-style: oblique;
+	color: #FFF;
+	text-align: center;
+
+}
+#apDiv4 {
+	position: absolute;
+	left: 1106px;
+	top: 1222px;
+	width: 499px;
+	height: 711px;
+	z-index: 4;
+}
+#apDiv5 {
+	position: absolute;
+	left: 1150px;
+	top: 1265px;
+	width: 410px;
+	height: 629px;
+	z-index: 50;
+	font-family: bigNoodleTitling;
+	font-style: oblique;
+	color: #FFF;
+	font-size:22px;
+}
+#apDiv6 {
+	position: absolute;
+	left: 500;
+	top: 1211px;
+	width: 500;
+	height: 980;
+	z-index: 51;
+}
+#apDiv7 {
+	position: absolute;
+	left: 923px;
+	top: 2055px;
+	width: 756px;
+	height: 476px;
+	z-index: 52;
+}
+#apDiv8 {
+	position: absolute;
+	left: 34px;
+	top: 2061px;
+	width: 776px;
+	height: 564px;
+	z-index: 53;
+}
+#apDiv9 {
+	position: absolute;
+	left: 112px;
+	top: 2085px;
+	width: 644px;
+	height: 498px;
+	z-index: 54;
+	font-family: bigNoodleTitling;
+	font-style: oblique;
+	color: #FFF;
+	font-size: 26px;
+	text-aligin: center;
+}
+#apDiv10 {
+	position: absolute;
+	left: 590px;
+	top: 2785px;
+	width: 807px;
+	height: 276px;
+	z-index: 55;
+}
+#apDiv11 {
+	position: absolute;
+	left: 666px;
+	top: 2813px;
+	width: 665px;
+	height: 334px;
+	z-index: 56;
+	font-family: bigNoodleTitling;
+	font-style: oblique;
+	color: #FFF;
+	text-align:center;
+	font-size:25px;
+}
+#apDiv12 {
+	position: absolute;
+	left: 718px;
+	top: 3028px;
+	width: 614px;
+	height: 128px;
+	z-index: 57;
+	font-family: bigNoodleTitling;
+	font-size: 45px;
+}
+#apDiv13 {
+	position: absolute;
+	left: px;
+	top: 1px;
+	width: 500px;
+	height: 1000px;
+	z-index: 0;
+	transition: height 2s;
+}
+img:hover {
+	height: 500px;;
 }
